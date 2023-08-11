@@ -1,3 +1,5 @@
+import { FacebookIcon, InstagramIcon, TwitterIcon } from '../Icons';
+
 const ContactSection = () => {
   return (
     <section className="bg-blue-500 text-white p-4 flex justify-center">
@@ -8,11 +10,15 @@ const ContactSection = () => {
           <input type="submit" name="" id="" className="p-3 text-white bg-gray-800 rounded-r-md" />
         </form>
         <div className="flex gap-3">
-          <div>FB</div>
-          <div>IG</div>
-          <div>TW</div>
-          <div>GO</div>
-          <div>PI</div>
+          <div>
+            <FacebookIcon />
+          </div>
+          <div>
+            <InstagramIcon />
+          </div>
+          <div>
+            <TwitterIcon />
+          </div>
         </div>
       </div>
     </section>

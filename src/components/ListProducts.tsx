@@ -47,7 +47,7 @@ interface Props {
 
 const ListProducts: React.FC<Props> = ({ category, maxPrice, sort }) => {
   return (
-    <section className="flex justify-between flex-wrap">
+    <section className="flex justify-between flex-wrap gap-5">
       {mockData.map((item) => (
         <Card key={item.id} item={item} />
       ))}

@@ -8,7 +8,7 @@ interface Props {
 const Card: React.FC<Props> = ({ item }) => {
   return (
     <Link href={`/products/${item.id}`}>
-      <article className="w-72 flex flex-col gap-3">
+      <article className="w-72 flex flex-col gap-3 mb-12">
         <div
           style={{
             ['--image-url' as string]: `url(${item.img})`,
